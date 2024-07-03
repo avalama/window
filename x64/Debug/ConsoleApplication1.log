@@ -1,0 +1,6 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\Delta Apollo\Documents\מסמכים של הצוות\דרור\ConsoleApplication1\ConsoleApplication1.cpp(60,68): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Delta Apollo\Documents\מסמכים של הצוות\דרור\ConsoleApplication1\ConsoleApplication1.cpp(74,21): error C2664: 'HWND CreateWindowExW(DWORD,LPCWSTR,LPCWSTR,DWORD,int,int,int,int,HWND,HMENU,HINSTANCE,LPVOID)': cannot convert argument 3 from 'const char [10]' to 'LPCWSTR'
+C:\Users\Delta Apollo\Documents\מסמכים של הצוות\דרור\ConsoleApplication1\ConsoleApplication1.cpp(74,21): message : Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\um\winuser.h(4433,1): message : see declaration of 'CreateWindowExW'
+C:\Users\Delta Apollo\Documents\מסמכים של הצוות\דרור\ConsoleApplication1\ConsoleApplication1.cpp(74,21): message : while trying to match the argument list '(long, LPCWSTR, const char [10], long, int, int, int, int, nullptr, nullptr, nullptr, nullptr)'
